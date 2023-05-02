@@ -11,7 +11,7 @@ const AccountProvider = ({ children }) => {
 	const [newMessageFlag, setNewMessageFlag] = useState(false);
 
 	useEffect(() => {
-		socket.current = io("ws://localhost:8000");
+		socket.current = io("https://whatsapp-clone-mern.onrender.com");
 	}, []);
 
 	return (

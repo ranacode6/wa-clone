@@ -33,7 +33,7 @@ const server = app.listen(PORT, () =>
 
 const io = new Server(server, {
 	cors: {
-		origin: "https://whatsapp-clone-mern.onrender.com",
+		origin: "https://whatsapp-clone-five-orcin.vercel.app",
 	},
 });
 

@@ -1,7 +1,7 @@
 import grid from "gridfs-stream";
 import mongoose from "mongoose";
 
-const url = "https://whatsapp-clone-delta-five.vercel.app";
+const url = "https://whatsapp-clone-mern.onrender.com";
 
 let gridFsBucket, gfs;
 const conn = mongoose.connection;

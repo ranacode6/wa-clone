@@ -65,7 +65,7 @@ const Conversation = ({ user }) => {
 				</Container>
 				<Box>
 					<Text>
-						{message?.text?.includes("localhost")
+						{message?.text?.includes("https")
 							? "media"
 							: message.text}
 					</Text>
